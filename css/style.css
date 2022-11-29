@@ -1,0 +1,17 @@
+/* @import url(./reset.css); */
+/* HOME AND NAVOIGATION-BAR SECTION */
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 1rem;
+}
+
+header img{
+    width: 10%;
+}
+
+.fa-solid{
+    display: none;
+}
