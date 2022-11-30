@@ -1,20 +1,43 @@
-@import url(./reset.css);
 
 * {
+    color: rgb(233, 233, 233);
     font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
 }
 
 /* HOME AND NAVOIGATION-BAR SECTION */
 
-header {
+.header {
+    background-color: white;
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    font-size: 1rem;
+    justify-content: space-between;
+    padding: 0 7%;
+    margin: 2rem 7%;
+    border-radius: 25px;
+    box-shadow: -1px 6px 13px 0px rgba(0, 0, 0, 0.62);
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
+.header .navigation-bar a {
+    margin: 0 1rem;
+    font-size: 1.5rem;
+    color:black;
+    text-decoration: none;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header .navigation-bar .active,
+.header .navigation-bar a:hover {
+    border-color: teal;
+    padding-bottom: 0.3rem;
+}
 header img{
-    width: 10%;
+    background: white;
+    width: 20%;
 }
 
 .fa-solid{
@@ -24,12 +47,25 @@ header img{
 /* BODY */
 
 body {
+    background: linear-gradient(
+        -45deg, #35577D, #1d2940   
+    );
     background-attachment:fixed;
+    background-color: #FFF;
+    margin: auto;
 }
 
+.button {
+    background-color: #4c7faf;
+    padding: 15px 32px;
+    border: 3px solid #75b0e9;
+    border-radius: 50px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
 p {
-    color:rgb(96, 119, 33);
-    font-style:italic;
     font-weight:bold;
     border-style:outset;
     border-color:rgb(177, 195, 228);
@@ -43,22 +79,23 @@ h1 {
     font-family:"Pres Start 2P","consolas",sans-serif;
     margin-right:auto;
     margin-left:auto;
-}
-h2 {
-    text-align: center;
-    border-color:rgb(100, 18, 233);
-    background: rgb(31, 139, 40);
+    border-color:rgb(100,818, 233) ;
+    background:rgb(31, 139, 40);
 }
 h3 {
-font-family:cursive;
-font-size:20px;
-border-style:inset;
+    font-family:cursive;
+    font-size:20px;
 }
-li {
-    color:rgb(63, 48, 78);
+li
+{
     font-style: oblique;
     font-weight: bolder;
 }
 
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 
-
+}

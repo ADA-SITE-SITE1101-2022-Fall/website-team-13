@@ -1,9 +1,0 @@
-@import url(./style.css);
-*{
-    color: rgb(233, 233, 233);
-}
-body{
-    background: linear-gradient(
-        rgb(0, 98, 195),rgb(0, 0, 0)
-    );
-}
