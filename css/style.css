@@ -43,6 +43,13 @@ header img{
 .fa-solid{
     display: none;
 }
+.fcc-btn {
+    background-color: #199319;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+}
+  
 
 /* BODY */
 
@@ -98,4 +105,4 @@ footer {
     justify-content: center;
     text-align: center;
 
-}
+
