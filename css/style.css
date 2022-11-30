@@ -28,19 +28,37 @@ body {
 }
 
 p {
+    color:rgb(96, 119, 33);
     font-style:italic;
-    text-decoration:rgb(109, 168, 120) underline;
+    font-weight:bold;
+    border-style:outset;
+    border-color:rgb(177, 195, 228);
+    border-width: 5px;
+    padding: 10px;
+    border-radius: 10px;
+    text-decoration:rgb(0, 20, 4) underline;
 }
 h1 {
-    border-style: dotted;
+    border-style:dashed;
     font-family:"Pres Start 2P","consolas",sans-serif;
     margin-right:auto;
     margin-left:auto;
 }
 h2 {
-    margin-right:auto;
-    margin-left:auto;
+    text-align: center;
     border-color:rgb(100, 18, 233);
-    background: greenyellow;
+    background: rgb(31, 139, 40);
 }
+h3 {
+font-family:cursive;
+font-size:20px;
+border-style:inset;
+}
+li {
+    color:rgb(63, 48, 78);
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+
 
