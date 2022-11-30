@@ -16,31 +16,31 @@ header {
 header img{
     width: 10%;
 }
+
+.fa-solid{
+    display: none;
+}
+
+/* BODY */
+
 body {
-    background: linear-gradient(skyblue,lightgreen);
     background-attachment:fixed;
 }
-h1 {
-    border-top-style:dotted;
-    border-bottom-style:dotted;
-    border-left-style:dotted;
-    border-right-style:dotted;
-    font-family:"Pres Start 2P","consolas",sans-serif;
-    margin-right:auto;
-    margin-left:auto;
-}
+
 p {
     font-style:italic;
     text-decoration:rgb(109, 168, 120) underline;
+}
+h1 {
+    border-style: dotted;
+    font-family:"Pres Start 2P","consolas",sans-serif;
+    margin-right:auto;
+    margin-left:auto;
 }
 h2 {
     margin-right:auto;
     margin-left:auto;
     border-color:rgb(100, 18, 233);
     background: greenyellow;
-}
-
-.fa-solid{
-    display: none;
 }
 
