@@ -1,0 +1,7 @@
+@import url(./style.css);
+
+body{
+    background: linear-gradient(
+        rgb(99, 176, 253),rgb(255, 255, 255)
+    );
+}

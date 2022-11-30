@@ -1,4 +1,9 @@
 @import url(./reset.css);
+
+* {
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
 /* HOME AND NAVOIGATION-BAR SECTION */
 
 header {
@@ -15,3 +20,4 @@ header img{
 .fa-solid{
     display: none;
 }
+
